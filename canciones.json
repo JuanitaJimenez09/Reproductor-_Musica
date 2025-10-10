@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Felices los 4",
+    "artista": "Maluma",
+    "duracion": "03:49",
+    "caratula": "img/felicesLos4.jpeg",
+    "cancion": "mp3/Maluma - Felices los 4 (Official Video) [t_jHrUE5IOk].mp3"
+  },
+  {
+    "id": 2,
+    "nombre": "Hawái",
+    "artista": "Maluma",
+    "duracion": "03:21",
+    "caratula": "img/hawai.jpeg",
+    "cancion": "mp3/Maluma - Hawái (Official Video) [pK060iUFWXg].mp3"
+  },
+  {
+    "id": 3,
+    "nombre": "Corazón",
+    "artista": "Maluma",
+    "duracion": "03:32",
+    "caratula": "img/corazon.jpg",
+    "cancion": "mp3/Maluma - Corazón (Official Video) ft. Nego do Borel.mp3"
+  },
+  {
+    "id": 4,
+    "nombre": "Borró Cassette",
+    "artista": "Maluma",
+    "duracion": "03:15",
+    "caratula": "img/borroCassete.jpg",
+    "cancion": "mp3/Maluma - Borro Cassette (Official Video) [Xk0wdDTTPA0].mp3"
+  },
+  {
+    "id": 5,
+    "nombre": "El Perdedor",
+    "artista": "Maluma",
+    "duracion": "03:54",
+    "caratula": "img/elPerdedor.jpg",
+    "cancion": "mp3/Maluma - El Perdedor (Cover Audio).mp3"
+  },
+  {
+    "id": 6,
+    "nombre": "Carnaval",
+    "artista": "Maluma",
+    "duracion": "03:28",
+    "caratula": "img/carnaval.jpg",
+    "cancion": "mp3/Maluma - Carnaval.mp3"
+  },
+  {
+    "id": 7,
+    "nombre": "Cuatro Babys",
+    "artista": "Maluma",
+    "duracion": "03:42",
+    "caratula": "img/cuatroBabys.jpg",
+    "cancion": "mp3/Maluma - Cuatro Babys ft. Trap Capos, Noriel, Bryant Myers, Juhn.mp3"
+  },
+  {
+    "id": 8,
+    "nombre": "Sobrio",
+    "artista": "Maluma",
+    "duracion": "03:18",
+    "caratula": "img/sobrio.jpeg",
+    "cancion": "mp3/Maluma - Sobrio (Official Video).mp3"
+  },
+  {
+    "id": 9,
+    "nombre": "HP",
+    "artista": "Maluma",
+    "duracion": "03:11",
+    "caratula": "img/hp.jpeg",
+    "cancion": "mp3/Maluma - Sobrio (Official Video).mp3"
+  }
+]

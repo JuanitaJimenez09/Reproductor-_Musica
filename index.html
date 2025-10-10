@@ -8,7 +8,19 @@
 </head>
 <body id="body">
 
-    <div id="player_contenedor">
+    <!-- (Pantalla de Bienvenida)-->
+    <section id="home">
+        <div class="home-container">
+            <img src="" alt="Fondo musical" class="home-image">
+            <div class="home-content">
+                <h1>Bienvenido a mi Reproductor de Música</h1>
+                <button id="btn_ingresar" class="btn-ingresar">Entrar al Reproductor</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- REPRODUCTOR-->
+    <div id="player_contenedor" class="oculto">
 
         <section id="menu_superior">
             <button id="btn_repetir">🔁</button>
@@ -38,10 +50,12 @@
             <button id="btn_atras">⏮️</button>
             <button id="btn_play">⏯️</button>
             <button id="btn_adelante">⏭️</button>
-            <button id="btn_descargar">⬇️</button>
         </section>
 
     </div>
+
+    <!-- Enlace al script -->
+    <script src="app.js"></script>
 
 </body>
 </html>

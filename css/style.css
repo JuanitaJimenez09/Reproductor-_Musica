@@ -1,3 +1,32 @@
+.hidden {
+    display: none;
+}
+
+#home {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#home h1 {
+    color: white;
+    font-size: 2em;
+}
+
+#home button {
+    background: #6a11cb;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#home button:hover {
+    background: #2575fc;
+}
+
 /* Fondo general */
 #body {
     background: linear-gradient(to bottom, #8b5cf6, #3b1d9a);
