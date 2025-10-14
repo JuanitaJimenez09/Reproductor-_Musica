@@ -122,43 +122,170 @@ button:hover {
     transform: scale(1.1);
     transition: 0.2s;
 }
-
-/* LISTA DE CANCIONES*/
-#lista_canciones {
-    margin-top: 15px;
-    background: #222;
-    border-radius: 10px;
-    padding: 10px;
-    position: absolute;
+/* Botón para abrir modal */
+#btn_abrir_playlist {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s;
 }
 
-#lista_canciones ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#btn_abrir_playlist:hover {
+    transform: scale(1.1);
+}
+
+/* Modal de playlist */
+#modal_playlist {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to bottom, #6d28d9, #1e0c63);
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.5);
+    transition: bottom 0.4s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+#modal_playlist.activo {
+    bottom: 0;
+}
+
+/* Header del modal */
+#modal_header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     position: relative;
 }
 
-#lista_canciones li {
+#modal_header h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+#btn_cerrar_modal {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+/* Lista de canciones */
+#lista_canciones {
+    overflow-y: auto;
+    padding: 15px;
+    flex: 1;
+}
+
+/* Cada canción en la lista */
+.cancion_item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: background 0.2s;
+}
+
+.cancion_item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.cancion_item.activa {
+    background: rgba(168, 85, 247, 0.4);
+    border: 2px solid #a855f7;
+}
+
+/* Miniatura de la canción */
+.cancion_miniatura {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+/* Info de la canción en el modal */
+.cancion_info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cancion_nombre {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cancion_detalles {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-    color: #fff;
+    margin-top: 3px;
 }
 
-#lista_canciones li:hover {
-    color: #d9ff00;
+.cancion_artista {
+    font-size: 13px;
+    color: #ccc;
+    margin: 0;
 }
 
-#lista_canciones img {
+.cancion_duracion {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Botón play del modal */
+.btn_play_modal {
+    background: white;
+    color: #7c3aed;
+    border: none;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
-    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
 }
 
-.oculto {
-    display: none;
+.btn_play_modal:hover {
+    transform: scale(1.1);
+}
+
+/* Scrollbar personalizado para el modal */
+#lista_canciones::-webkit-scrollbar {
+    width: 8px;
+}
+
+#lista_canciones::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#lista_canciones::-webkit-scrollbar-thumb {
+    background: #a855f7;
+    border-radius: 10px;
+}
+
+#lista_canciones::-webkit-scrollbar-thumb:hover {
+    background: #9333ea;
 }
