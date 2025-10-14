@@ -8,17 +8,6 @@
 </head>
 <body id="body">
 
-    <!-- (Pantalla de Bienvenida)-->
-    <section id="home">
-        <div class="home-container">
-            <img src="" alt="Fondo musical" class="home-image">
-            <div class="home-content">
-                <h1>Bienvenido a mi Reproductor de Música</h1>
-                <button id="btn_ingresar" class="btn-ingresar">Entrar al Reproductor</button>
-            </div>
-        </div>
-    </section>
-
     <!-- REPRODUCTOR-->
     <div id="player_contenedor" class="oculto">
 
@@ -50,7 +39,15 @@
             <button id="btn_atras">⏮️</button>
             <button id="btn_play">⏯️</button>
             <button id="btn_adelante">⏭️</button>
+            <button id="btn_lista">🎵</button>
         </section>
+
+        <!-- AGREGADO: lista de canciones oculta -->
+        <div id="lista_canciones" class="oculto">
+            <ul id="contenedor_lista"></ul>
+        </div>
+
+
 
     </div>
 

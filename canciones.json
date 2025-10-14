@@ -4,7 +4,7 @@
     "nombre": "Felices los 4",
     "artista": "Maluma",
     "duracion": "03:49",
-    "caratula": "img/felicesLos4.jpeg",
+    "caratula": "img/felicesLos4.jpeg.jpg",
     "cancion": "mp3/Maluma - Felices los 4 (Official Video) [t_jHrUE5IOk].mp3"
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Hawái",
     "artista": "Maluma",
     "duracion": "03:21",
-    "caratula": "img/hawai.jpeg",
+    "caratula": "img/hawai.jpeg.jpg",
     "cancion": "mp3/Maluma - Hawái (Official Video) [pK060iUFWXg].mp3"
   },
   {
@@ -36,7 +36,7 @@
     "nombre": "El Perdedor",
     "artista": "Maluma",
     "duracion": "03:54",
-    "caratula": "img/elPerdedor.jpg",
+    "caratula": "img/elPerdedor.jpeg.jpg",
     "cancion": "mp3/Maluma - El Perdedor (Cover Audio).mp3"
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Sobrio",
     "artista": "Maluma",
     "duracion": "03:18",
-    "caratula": "img/sobrio.jpeg",
+    "caratula": "img/sobrio.jpeg.jpg",
     "cancion": "mp3/Maluma - Sobrio (Official Video).mp3"
   },
   {
@@ -68,7 +68,7 @@
     "nombre": "HP",
     "artista": "Maluma",
     "duracion": "03:11",
-    "caratula": "img/hp.jpeg",
+    "caratula": "img/hp.jpeg.jpg",
     "cancion": "mp3/Maluma - Sobrio (Official Video).mp3"
   }
 ]
